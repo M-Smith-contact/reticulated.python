@@ -2,9 +2,9 @@ mydict = {}
 
 # read 5 employee name and age from keyboard
 for i in range(5):
-    print("Employ Name:")
+    print("Employee Name:")
     name = input()
-    print("Employ Age:")
+    print("Employee Age:")
     age = int( input())
 
     mydict[name] = age
