@@ -1,4 +1,4 @@
-# converter programd
+# converter program
 
 def menu():
     print("(1) Convert Fahrenheit to Celsius")
@@ -20,7 +20,7 @@ def converter():
     elif (c == 2):
         C2F();
     else:
-        print ("Invalide choice: ", c)
+        print ("Invalid choice: ", c)
     #print "Bye!";
     converter()
 
